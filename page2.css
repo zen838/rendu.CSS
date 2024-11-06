@@ -16,35 +16,6 @@ html{
     background-color: #191F23;
     color: white;
 }
-#titre{
-    display: flex;
-   align-items: center;
-    flex-direction: column;
-    text-align: center;
-
-}
-#rich{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-h2{
-    display: flex;
-    justify-content: center;
-}
-#etude,#invest,#vision{
-    width: 800px;
-    height: 400px;
-    margin-left: 200px;
-}
-#santedavid{
-    display: flex;
-    height: 400px;
-    justify-content: space-between;
-}
-#sante,#david{
-    width: 400px;
-}
 body{
     font-family: "Roboto Flex", sans-serif;
     font-size: 20px;
@@ -52,6 +23,11 @@ body{
 h1{
     font-family: "DM Serif Text", serif;
     font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: rgb(124, 124, 196);
 }
 .social-links{
     display: flex;
@@ -67,6 +43,23 @@ h1{
         width: 100%;
     }
 }
-a{
-    color: 000rgb(124, 124, 196);
+#principal{
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+.row{
+    width: 30%;
+    height: auto;
+
+ 
+}
+.port{
+    width: 350px;
+    height: 200px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
 }
