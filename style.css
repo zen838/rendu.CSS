@@ -30,16 +30,15 @@ h2{
     display: flex;
     justify-content: center;
 }
-#etude{
-    width: 400px;
-    height: 500px;
-    align-items: center;
-}
-#david{
-    width: 400px;
+#etude,#invest,#vision{
+    width: 800px;
     height: 400px;
 }
-#sante{
-    width: 400px;
+#santedavid{
+    display: flex;
     height: 400px;
+    justify-content: space-between;
+}
+#sante,#david{
+    width: 400px;
 }
