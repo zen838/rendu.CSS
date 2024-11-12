@@ -47,17 +47,20 @@ a{
     display: flex; 
     justify-content: space-around;
     flex-wrap: wrap;
+    
   
 }
-.row{
-    width: 30%;
+.card{
+   
     height: auto;
+    width: 350px;
 
  
 }
 .port{
     width: 350px;
     height: 200px;
+    object-fit: cover;
 }
 #footer{
     display: flex;
